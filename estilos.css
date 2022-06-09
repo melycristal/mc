@@ -4,6 +4,23 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+/***********animaciones******/
+.texto-animado{
+animation-name: texto;
+animation-duration: 2s;
+animation-iteration-count: 5;
+}
+
+@keyframes texto {
+    from {
+        transform:translateX(1300px);}
+    to {
+            transform: translate(0);
+        } }
+
+
+
 /*body*/
 body{
     width: 100%;
@@ -75,7 +92,7 @@ text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
 
 
 .titulo h2{
-text-align: center;
+/*text-align: center;*/
 font-size: 60px;
 }
 
